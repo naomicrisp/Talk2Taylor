@@ -1,2 +1,2 @@
 # Talk2Taylor
-Generate a taylor swift quote when need of inspiration
+Generate a taylor swift quote when in need of inspiration
