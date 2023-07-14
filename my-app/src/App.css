@@ -1,0 +1,114 @@
+.App {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    /* background-image: url("./images/speaknow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: auto 100%;
+    background-position: bottom; */
+}
+/* @media screen and (min-width: 800px) {
+  .App {
+    background-size: 1200px 100%;
+    background-position: bottom right;  
+}
+.button {
+  margin-left: 10%;
+}
+
+  
+} */
+
+.speaknow {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+}
+
+.left-bar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 10%;
+  background-color: rgba(255, 128, 150, 0.8);
+}
+
+.main-text {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #372A54;
+  padding-left: 2%;
+  max-width: 100%;
+}
+
+
+.button {
+  background-color: rgba(255, 128, 150, 0.8);
+  border-radius: 10px;
+  color: white;
+  padding: 5%;
+  width: 100%;
+  border:none;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 2%;
+}
+
+  .button:hover {
+    background-color: #EF8DE6;
+  } 
+ 
+  .quote {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: Licorice, cursive;
+    font-size: 3em;
+    margin-top: 5%;
+    color: #372A54;
+    padding-bottom: 25%;
+    padding-right: 20%;
+    padding-left: 5%;
+    text-align: center;
+  }
+
+/* @media screen and (max-width: 700px) {
+  .button {
+    width: 90%;
+}
+  .App {
+    margin: 0;
+    padding: 0;
+    background-image: none;
+  }
+
+  .quote {
+   background: none;
+   text-align: center;
+   margin: none;
+   padding: none;
+  }
+} */
+
+.quote { 
+  font-family: Licorice, cursive;
+  font-size: 3em;
+  margin-top: 1%;
+  color: #372A54;
+  padding-bottom: 25%;
+  padding-right: 30%;
+  text-align: center;
+}
+
