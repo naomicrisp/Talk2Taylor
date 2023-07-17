@@ -4,23 +4,8 @@
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
-    /* background-image: url("./images/speaknow.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: auto 100%;
-    background-position: bottom; */
+   
 }
-/* @media screen and (min-width: 800px) {
-  .App {
-    background-size: 1200px 100%;
-    background-position: bottom right;  
-}
-.button {
-  margin-left: 10%;
-}
-
-  
-} */
 
 .speaknow {
   grid-column-start: 2;
